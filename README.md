@@ -1,4 +1,4 @@
-# Ansible-EC2-httpd
+# ansible-dynamic-inventory-EC2
 
 Deploy a sample HTML Website on AWS EC2 through ANSIBLE using dynamic inventory.
 
