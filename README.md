@@ -1,6 +1,12 @@
-# ansible-dynamic-inventory-EC2
+# Ansible-dynamic-inventory-EC2
 
-Deploy a sample HTML Website on AWS EC2 through ANSIBLE using dynamic inventory.
+In this demo, we will utilize [Dynamic inventory](https://docs.ansible.com/ansible/latest/user_guide/intro_dynamic_inventory.html) feature of Ansible to track the details of newly created instances and deploy a sample HTML website to these same instances.
+
+deploy a sample HTML Website on AWS EC2.
+
+Often an Ansible inventory(static) fluctuates over time, with hosts spinning up and shutting down in response to business demands and the static inventory solutions will not be able to serve the needs. You may need to track hosts for multiple instances and it can be hectic to manage the inventory file each time. 
+
+Hence, to overcome this we can make use of the option dynamic inventory to get the details of the newly provisioned instances.
 
 ## Overview
 
