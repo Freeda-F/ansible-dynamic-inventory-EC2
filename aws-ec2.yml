@@ -73,7 +73,7 @@
             Name: "webserver"
         count_tag:
           Name: "webserver"
-        exact_count: 1
+        exact_count: 2
         wait: true
       register: ec2_info
 
