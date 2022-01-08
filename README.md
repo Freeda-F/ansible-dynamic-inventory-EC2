@@ -4,7 +4,7 @@ In this demo, we will utilize [Dynamic inventory](https://docs.ansible.com/ansib
 
 Often an Ansible inventory(static) fluctuates over time, with hosts spinning up and shutting down in response to business demands and the static inventory solutions will not be able to serve the needs. You may need to track hosts for multiple instances and it can be hectic to manage the inventory file each time. 
 
-Hence, to overcome this we can make use of the option dynamic inventory to get the details of the newly provisioned instances.
+Hence, to overcome this we can make use of the option dynamic inventory to get the details of the instances and provison the EC2 according to the requirements.
 
 ## Overview
 
